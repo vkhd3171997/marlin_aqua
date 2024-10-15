@@ -1,0 +1,60 @@
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items towards the start of the container vertically */
+    align-items: flex-start; /* Align items towards the start of the container horizontally */
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px 20px; /* Add padding for vertical spacing */
+    box-sizing: border-box;
+    transform: translate(-20px, -20px); /* Move content left and up */
+}
+
+.p-field {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.p-inputgroup, .p-field > .p-inputtext {
+    width: 100%; /* Ensure all input fields and groups have full width */
+}
+
+h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%; /* Ensure header text is aligned properly */
+}
+
+.captcha-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+.p-d-flex.p-jc-between {
+    width: 100%;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.button-group .p-button {
+    margin-right: 10px;
+}
+
+.button-group .p-button:last-child {
+    margin-right: 0;
+}

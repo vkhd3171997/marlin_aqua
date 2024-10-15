@@ -1,0 +1,106 @@
+.registration-container {
+    padding: 10px; /* Reduced padding */
+  }
+  
+  .registration-form {
+    max-width: 100%; /* Maximum width for smaller screens */
+    margin: 0 auto; /* Center the form */
+    background-color: white; 
+  }
+  
+  .form-blocks {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between blocks */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+  }
+  
+  .form-block {
+    flex: 1 1 30%; /* Allow the blocks to grow and shrink, with a base width of 30% */
+    margin: 5px; /* Adjusted margin for spacing */
+    padding: 10px; /* Reduced padding for a smaller appearance */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* Background color */
+    max-height: 1400px; /* Limit height of each block */
+    overflow-y: auto; /* Scroll if content overflows */
+  }
+  
+  .form-group {
+    margin-bottom: 8px; /* Reduced space between form groups */
+  }
+  
+  .flag-icon {
+    width: 20px; /* Flag icon size */
+    margin-right: 5px; /* Space between flag and input */
+  }
+  
+  .submit-btn {
+    margin-top: 06px; /* Space above submit button */
+    background-color: #28a745; /* Green button color */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Button padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    float:right;
+    
+    margin:15px;
+    width: 10%; /* Full width button */
+  }
+  
+  .submit-btn:hover {
+    opacity: 0.9; /* Slight opacity change on hover */
+  }
+  .otp-btn {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.otp-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.otp-btn:active {
+    background-color: #1e7e34; /* Even darker green when pressed */
+    transform: scale(1); /* Reset scaling when pressed */
+}
+
+.otp-btn:disabled {
+    background-color: #6c757d; /* Gray color for disabled button */
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+button {
+  padding: 10px 20px;
+  background-color: #0056b3; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+button:active {
+  background-color: #004085; /* Even darker blue when clicked */
+  transform: scale(1); /* Reset scaling when clicked */
+}
+
+button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Custom focus shadow */
+}

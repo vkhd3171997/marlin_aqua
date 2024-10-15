@@ -1,0 +1,31 @@
+.form-container {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Styling for small input fields */
+.p-inputtext-sm, .p-dropdown-sm, .p-inputnumber-sm {
+    height: 30px;
+    font-size: 12px;
+    padding: 4px;
+}
+
+/* Smaller button size */
+.p-button-sm {
+    height: 30px;
+    font-size: 12px;
+    padding: 4px 10px;
+}
+
+/* Make input fields take full width */
+.p-fluid .p-inputtext, .p-fluid .p-dropdown, .p-fluid .p-inputnumber {
+    width: 100%;
+}
+
+.p-button-primary, .p-button-link {
+    margin-top: 10px;
+}
